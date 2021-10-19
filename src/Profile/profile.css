@@ -1,0 +1,156 @@
+
+.background{
+   /* background-color: #171c24;*/
+    object-fit: cover;
+  
+    
+}
+.body_background{
+  /*  background-color: #171c24;*/
+    object-fit: cover;
+    
+}
+
+.Header{
+    flex-direction:row;
+    justify-content: space-between;
+    
+    
+ 
+    margin-left: 20px;
+    display: flex;
+    
+    color:grey;
+}
+
+.P1{ 
+    font-size: 20px;
+    font-weight: 600;
+    min-width: 150px;
+    
+  
+}
+
+.P1:hover{
+    cursor: pointer;
+   
+    
+}
+
+
+
+.P2{
+    background-color: #222b36;
+    color:azure;
+    height: 200px;
+    width:30%;
+    position: absolute;
+
+}
+
+.body{
+    border-color:grey;
+    height: 400px;
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+    position: relative;
+    
+    
+}
+.P4{
+  
+height: 300px;
+width:30%;
+margin-left: 40px;
+margin-top: 20px;
+position: absolute;
+padding-left: 100px;
+padding-top: 30px;
+background-color: primary;
+
+}
+
+
+.Tool{
+    background:#030120;
+  
+ 
+}
+.Pdetails{
+    flex: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    color: white;
+
+}
+.textField{
+ border-radius: 30px;
+}
+
+
+
+.LC1{
+  
+    height: 400px;
+    width:40%;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 30px;
+    
+    
+    }
+.LC2{
+    padding-left: 10px;
+    padding-top: 30px;
+    
+        color:azure;
+        height: 300px;
+        width: 45%;
+    margin-top: 10px;
+    margin-right: 10px;
+        float: right;
+        position: relative;
+        
+        
+    
+}
+.ICAI1{
+  
+    height: 400px;
+    width:50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 30px;
+    
+    
+    }
+.Leave{
+        height: 100px;
+        width:50%;
+        margin-left: 10px;
+        margin-top: 10px;
+        position: absolute;
+        padding-left: 100px;
+        padding-top: 30px;
+    }
+.body>h3{
+    font-size: 30px;
+    font-weight: 60;
+    margin-left: 10px;
+}
+
+.tabs:focus{
+    color: #1795be;
+}
+
+
+.menuStyles{
+    background-color: #222b36;
+}

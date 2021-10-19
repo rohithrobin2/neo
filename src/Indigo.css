@@ -1,0 +1,25 @@
+.Card{
+    
+}
+
+.ClientCardHeader{
+   
+    margin-bottom: 10px;
+    position: static;
+    margin-left: 10px;
+}
+
+.pushIcon{
+    position:relative;
+   float: right;
+   margin-top: -10%;
+   
+}
+.AccountingHeader{
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    margin-left: 15px;
+    
+   
+}

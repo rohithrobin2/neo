@@ -1,0 +1,52 @@
+.header-background {
+    background-color: #171c24;
+    object-fit: fill;
+    height: max-content;
+    color: aliceblue;
+    height: 100%;
+    text-align: center;
+    margin-top: 1%;
+    max-width: 700px;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+  
+   
+}
+.form{
+  position: relative;
+}
+.container{
+    position: relative;
+    margin-left: 20%;
+}
+.position{
+    position: absolute;
+}
+.Selected-date{
+    max-width: 200px;
+   
+}
+.DateField{
+  margin-left:5px ;
+  margin-top: 20px;
+
+}
+
+
+
+.field{
+   width: 15pc;
+}
+
+.total{
+  margin-top:50px;
+  width:50%;
+  float: right;
+  
+}
+
+.save_button{
+  margin-top: 15%;
+  margin-left: 8%;
+}

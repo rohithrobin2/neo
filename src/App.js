@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+ } from "react-router-dom";
+import ProfileDetails from './Profile/index'
+import HomeScreen from "./HomeScreen";
+import DarkLight from "./darkmode/DarkLight";
+import Themes from "./Profile/Themes";
+import AddNewTimeSheet from "./AddNewTimeSheet/AddNewTimeSheet";
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className="App">
+    
+    
+<Router>
+  <Switch>
+        <Route exact path='/profile' >
+          <ProfileDetails/>
+        </Route>
+        <Route exact path='/' >
+          <HomeScreen/>
+        </Route>
+        <Route exact path='/dark' >
+          <DarkLight/>
+        </Route>
+        <Route exact path='/theme' >
+          <Themes/>
+        </Route>
+        <Route exact path='/timesheet' >
+          <AddNewTimeSheet/>
+        </Route>
+  </Switch>
+</Router>        
+   </div>
   );
 }
 
